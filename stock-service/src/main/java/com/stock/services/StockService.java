@@ -1,10 +1,10 @@
-package com.stock.movement.services;
+package com.stock.services;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.stock.movement.dto.StockDTO;
-import com.stock.movement.dto.StockFormDTO;
+import com.stock.dto.StockDTO;
+import com.stock.dto.StockFormDTO;
 
 public interface StockService {
 

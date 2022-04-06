@@ -21,7 +21,7 @@ import com.stock.movement.dto.MovementFormDTO;
 import com.stock.movement.services.MovementService;
 
 @RestController
-@RequestMapping("/movement")
+@RequestMapping("/movement-service")
 public class MovementController {
 
 	@Autowired

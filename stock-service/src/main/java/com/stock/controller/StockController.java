@@ -1,4 +1,4 @@
-package com.stock.movement.controllers;
+package com.stock.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.stock.movement.dto.StockDTO;
-import com.stock.movement.dto.StockFormDTO;
-import com.stock.movement.services.StockService;
+import com.stock.dto.StockDTO;
+import com.stock.dto.StockFormDTO;
+import com.stock.services.StockService;
 
 @RestController
-@RequestMapping("/stock")
+@RequestMapping("/stock-service")
 public class StockController {
 
 	@Autowired

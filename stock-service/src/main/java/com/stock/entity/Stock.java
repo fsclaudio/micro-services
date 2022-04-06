@@ -1,4 +1,4 @@
-package com.stock.movement.entities;
+package com.stock.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

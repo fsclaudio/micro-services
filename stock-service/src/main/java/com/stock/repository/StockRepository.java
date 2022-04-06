@@ -1,8 +1,8 @@
-package com.stock.movement.repository;
+package com.stock.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.stock.movement.entities.Stock;
+import com.stock.entity.Stock;
 
 public interface StockRepository extends JpaRepository<Stock, Long> {
 

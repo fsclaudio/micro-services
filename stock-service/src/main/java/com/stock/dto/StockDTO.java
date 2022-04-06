@@ -1,13 +1,14 @@
-package com.stock.movement.dto;
+package com.stock.dto;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-public class StockFormDTO {
-	
+@NoArgsConstructor
+public class StockDTO {
+
 	private Long productId;
 	private double price;
 	private double exitPrice;
 	private int stockQuantity;
-    
 }

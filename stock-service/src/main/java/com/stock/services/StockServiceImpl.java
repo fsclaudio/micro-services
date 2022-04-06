@@ -1,4 +1,4 @@
-package com.stock.movement.services;
+package com.stock.services;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -12,11 +12,11 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Service;
 
-import com.stock.movement.dto.StockDTO;
-import com.stock.movement.dto.StockFormDTO;
-import com.stock.movement.entities.Stock;
-import com.stock.movement.exceptions.ResourceNotFoundException;
-import com.stock.movement.repository.StockRepository;
+import com.stock.dto.StockDTO;
+import com.stock.dto.StockFormDTO;
+import com.stock.entity.Stock;
+import com.stock.exceptions.ResourceNotFoundException;
+import com.stock.repository.StockRepository;
 
 @Service
 public class StockServiceImpl implements StockService {
